@@ -1,0 +1,13 @@
+page 1 - clicking on the pyramid goes to page 2
+
+page 2 -
+more info goes to page 3
+join us goes to page 4
+social opens a popup with the social media page above the website
+
+page 3-
+more info goes to page 4
+every image clicked plays the music from the x-files
+
+page 4-
+clicking on members at the top goes back to page 1

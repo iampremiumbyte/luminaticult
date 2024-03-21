@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>$luminaticult</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/page2.html">Members</a>
+      <a href="/page4.html">Join Us</a>
+      <a href="/page3.html">More Info</a>
+      <a href="/socials.html">Socials</a>
+    </nav>
+    <!-- desktop -->
+    <div class="desktop">
+      <div class="page page1">
+        <img src="/assets/PAGE5- members.png" usemap="#image-d-map" />
+      </div>
+    </div>
+
+    <!-- mobile -->
+    <div class="mobile">
+      <div class="page page1">
+        <img src="/assets/mobile/page4.png" usemap="#image-map" />
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

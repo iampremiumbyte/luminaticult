@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>$luminaticult</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/page5.html">Members</a>
+      <a href="/page4.html">Join Us</a>
+      <a href="/page3.html">More Info</a>
+      <a href="/socials.html">Socials</a>
+    </nav>
+    <!-- desktop -->
+    <div class="desktop">
+      <div class="page page1">
+        <img src="/assets/PAGE4-more info.png" usemap="#image-d-map" />
+
+        <a href="/page3.html">
+          <div class="box" id="boxD1"></div>
+        </a>
+
+        <map name="image-d-map">
+          <area
+            id="areaD1"
+            target=""
+            alt=""
+            title=""
+            href=""
+            coords="621,863,1448,1055"
+            shape="rect"
+          />
+        </map>
+      </div>
+    </div>
+
+    <!-- mobile -->
+    <div class="mobile">
+      <div class="page page1">
+        <img src="/assets/mobile/page3.png" usemap="#image-map" />
+        <a href="/page3.html">
+          <div class="box" id="boxM1"></div>
+        </a>
+        <map name="image-map">
+          <area
+            id="areaM1"
+            target=""
+            alt=""
+            title=""
+            href=""
+            coords="48,1612,956,1883"
+            shape="rect"
+          />
+        </map>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

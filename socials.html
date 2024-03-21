@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>$luminaticult</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/page5.html">Members</a>
+      <a href="/page4.html">Join Us</a>
+      <a href="/page3.html">More Info</a>
+      <a href="/socials.html">Socials</a>
+    </nav>
+    <!-- desktop -->
+    <div class="desktop">
+      <div class="page page1">
+        <img src="/assets/page3-click-socials.png" usemap="#image-d-map" />
+
+        <a href="https://t.me/luminatiportal">
+          <div class="box" id="boxD1"></div>
+        </a>
+        <a href="https://twitter.com/luminatisol">
+          <div class="box" id="boxD2"></div>
+        </a>
+        <a href="#">
+          <div class="box" id="boxD3"></div>
+        </a>
+
+        <map name="image-d-map">
+          <area
+            id="areaD1"
+            target=""
+            alt=""
+            title=""
+            href="https://t.me/luminatiportal"
+            coords="178,287,634,706"
+            shape="rect"
+          />
+          <area
+            id="areaD2"
+            target=""
+            alt=""
+            title=""
+            href="https://twitter.com/luminatisol"
+            coords="717,275,1190,749"
+            shape="rect"
+          />
+          <area
+            id="areaD3"
+            target=""
+            alt=""
+            title=""
+            href="#"
+            coords="1256,245,1683,775"
+            shape="rect"
+          />
+        </map>
+      </div>
+    </div>
+
+    <!-- mobile -->
+    <div class="mobile">
+      <div class="page page1">
+        <img src="/assets/mobile/page2click.png" usemap="#image-map" />
+        <a href="https://t.me/luminatiportal">
+          <div class="box" id="boxM1"></div>
+        </a>
+        <a href="https://twitter.com/luminatisol">
+          <div class="box" id="boxM2"></div>
+        </a>
+        <a href="#">
+          <div class="box" id="boxM3"></div>
+        </a>
+
+        <map name="image-map">
+          <area
+            id="areaM1"
+            target=""
+            alt=""
+            title=""
+            href="https://t.me/luminatiportal"
+            coords="66,124,282,323"
+            shape="rect"
+          />
+          <area
+            id="areaM2"
+            target=""
+            alt=""
+            title=""
+            href="https://twitter.com/luminatisol"
+            coords="319,125,541,334"
+            shape="rect"
+          />
+          <area
+            id="areaM3"
+            target=""
+            alt=""
+            title=""
+            href="#"
+            coords="569,142,773,348"
+            shape="rect"
+          />
+        </map>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
